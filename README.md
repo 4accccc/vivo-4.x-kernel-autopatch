@@ -1,4 +1,4 @@
-# vivo-4x-kernel-patch
+# vivo-4x-kernel-autopatch
 patch vivo kernel(4x). 
  
 see [releases](https://github.com/4accccc/vivo-4x-kernel-patch/releases).
