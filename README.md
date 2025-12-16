@@ -1,9 +1,7 @@
 # vivo-4.x-kernel-autopatch
 
 
-*tool was encrypted ← means u can not use it atm haha.*  
-*will release soon*  
-*really*  
+## now released  
 
 
 <img src="https://raw.githubusercontent.com/4accccc/vivo-4x-kernel-patch/refs/heads/main/autopatch-eng.png" width="27%" alt="example screenshot"><img src="https://raw.githubusercontent.com/4accccc/vivo-4x-kernel-patch/refs/heads/main/autopatch-chn.png" width="25%" alt="示例截图">
