@@ -14,7 +14,7 @@
 ### ⚠️WARNING: modifying a device's kernel can easily lead to a permanent "brick". if u r aware of that, or think my tool has some viruses™ inside, dont use this tool.
 
 
-❓:need more feedback.      ✔️:tested OK.      ❌:smth went wrong.
+❓:[need more feedback.](https://github.com/4accccc/vivo-4.x-kernel-autopatch/discussions/1)      ✔️:tested OK.      ❌:smth went wrong.
 
 
 |                  | 4.14.94+ | 4.14.98 | 4.14.141+ | 4.14.186 | 4.14.190 | 4.19.191+ |
