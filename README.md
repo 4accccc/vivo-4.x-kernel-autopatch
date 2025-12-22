@@ -17,13 +17,14 @@
 ❓:[need more feedback.](https://github.com/4accccc/vivo-4.x-kernel-autopatch/discussions/1)      ✔️:tested OK.      ❌:smth went wrong.
 
 
-|                  | 4.14.94+ | 4.14.98 | 4.14.141+ | 4.14.186 | 4.14.190 | 4.19.191+ |
-| :--------------: | :------: | :-----: | :-------: | :------: | :------: | :-------: |
-| **Status** |    ❓    |   ❓   |   ✔️   |   ✔️¹²   |   ❓¹   |   ❓¹   |
+|                  | 4.9.77+ | 4.14.94+ | 4.14.98 | 4.14.141+ | 4.14.186 | 4.14.190 | 4.19.191+ |
+| :--------------: | :------: | :------: | :-----: | :-------: | :------: | :------: | :-------: |
+| **Status** |    ❌³    |    ❓    |   ❓   |   ✔️   |   ✔️¹²   |   ❓¹   |   ❓¹   |
 
 
 1:mount fix led to a reboot loop.  
 2:need to patch vivo do_mount_check.    
+3:kernel version too old.
   
 TODO:
 automatic unpack boot & get kernel file  ✔️  
