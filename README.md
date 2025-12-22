@@ -33,6 +33,7 @@ automatic repack boot  ✔️
 new feature: auto detect linux kernel major version and will notice user when the major version is not 4.  
 new feature: auto decompress kernel when the kernel file is compressed.  
 new feature: make the mount fix optional.  
+new feature: [/system → /syswxl](https://github.com/wuxianlin/build_magisk_vivo/blob/aa744fc5d7a1cb6c1d44071651a745a80bba8e13/patches/Magisk/patch_vivo_do_mount_check.diff#L9) that makes magisk to work on some models.    
   
 fix: some temp files won't be deleted after the program exited unexpectly.  
 fix: custom save path feature does nothing.  
