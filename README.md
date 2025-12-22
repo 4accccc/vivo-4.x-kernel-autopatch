@@ -35,11 +35,6 @@ new feature: auto decompress kernel when the kernel file is compressed.
 new feature: make the mount fix optional.  
 new feature: [/system → /syswxl](https://github.com/wuxianlin/build_magisk_vivo/blob/aa744fc5d7a1cb6c1d44071651a745a80bba8e13/patches/Magisk/patch_vivo_do_mount_check.diff#L9) that makes magisk to work on some models.    
   
-fix: some temp files won't be deleted after the program exited unexpectly.  
-fix: custom save path feature does nothing.  
-fix: can't read linux kernel version correctly.  
-fix: translation errors.  
-  
 p.s. this tool itself's development was finished. and **plz notice that this tool won't fix problems caused by selinux and other non-kernel stuff, it only patches the kernel and that's all.**  
 
 p.s. if this patch didn't work for u, u can go back and use magisk suu instead.  
