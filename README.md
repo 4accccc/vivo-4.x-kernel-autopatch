@@ -40,3 +40,12 @@ p.s. this tool itself's development was finished. and **plz notice that this too
 p.s. if this patch didn't work for u, u can go back and use magisk suu instead.  
 
 _~fxxk u vivo fxxk u bbk look at what u've done!~_  
+
+# Credits
+- [romanovj](https://github.com/romanovj): solution provider (su, mount fix).
+- [wuxianlin](https://github.com/wuxianlin): solution provider (/system → /syswxl).
+- [radare2](https://github.com/radareorg/radare2): the best open source tool for reverse engineering.
+- [Magisk](https://github.com/topjohnwu/Magisk): used for unpack & repack boot.img.
+- [LoveRedscholar](https://github.com/LoveRedscholar) & [Nevoraa](https://github.com/Nevoraa): for helping me test through various models.
+- ~[vivo Open Source](https://opensource.vivo.com/Project): useless shit~
+
