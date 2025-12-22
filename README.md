@@ -40,8 +40,8 @@ fix: custom save path feature does nothing.
 fix: can't read linux kernel version correctly.  
 fix: translation errors.  
   
-p.s. this tool itself's development was finished. ~~now we're working on fix some selinux policies for **_some certain models_** to get magisk work.~~ and **plz notice that this tool won't fix problems caused by selinux and other non-kernel stuff, it only patches the kernel and that's all.**  
+p.s. this tool itself's development was finished. and **plz notice that this tool won't fix problems caused by selinux and other non-kernel stuff, it only patches the kernel and that's all.**  
 
-p.s. okay i gave up. ~fxxk vivo~ on some models there're restrictions not only in the kernel but in /vendor and somewhere else. and i still can't get magiskd work or get post-fs-data running at boot. i'm pretty sure that on **_some certain models_** u can't get magisk work normally by just patch the kernel. ~but magisk suu works perfectly holy sh*t~ if this patch didn't work for u, u can go back and use magisk suu instead.  
+p.s. if this patch didn't work for u, u can go back and use magisk suu instead.  
 
 _~fxxk u vivo fxxk u bbk look at what u've done!~_  
