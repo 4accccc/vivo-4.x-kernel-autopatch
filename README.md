@@ -46,6 +46,6 @@ _~fxxk u vivo fxxk u bbk look at what u've done!~_
 - [wuxianlin](https://github.com/wuxianlin): solution provider (/system → /syswxl).
 - [radare2](https://github.com/radareorg/radare2): the best open source tool for reverse engineering.
 - [Magisk](https://github.com/topjohnwu/Magisk): used for unpack & repack boot.img.
-- [LoveRedscholar](https://github.com/LoveRedscholar) & [Nevoraa](https://github.com/Nevoraa): for helping me test through various models.
+- [LoveRedscholar](https://github.com/LoveRedscholar) & [Nevoraa](https://github.com/Nevoraa): for helping me test across various models.
 - ~[vivo Open Source](https://opensource.vivo.com/Project): useless shit~
 
