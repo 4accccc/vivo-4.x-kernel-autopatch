@@ -44,9 +44,9 @@ _~fxxk u vivo fxxk u bbk look at what u've done!~_
 
 # Credits
 - [romanovj](https://github.com/romanovj): solution provider (su, mount fix).
-- [wuxianlin](https://github.com/wuxianlin): solution provider (/system → /syswxl).
+- [wuxianlin](https://github.com/wuxianlin): solution provider (do_mount_check).
 - [radare2](https://github.com/radareorg/radare2): the best open source tool for reverse engineering.
-- [Magisk](https://github.com/topjohnwu/Magisk): used for unpack & repack boot.img.
+- [Magisk](https://github.com/topjohnwu/Magisk): used for unpacking & repacking boot.img.
 - [LoveRedscholar](https://github.com/LoveRedscholar) & [Nevoraa](https://github.com/Nevoraa): for helping me test across various models.
 - ~[vivo Open Source](https://opensource.vivo.com/Project): useless shit~
 
