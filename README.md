@@ -4,7 +4,7 @@ well, I have to admit that AI is much better at writing readme.md than me LOL
 # vivo-4.x-kernel-autopatch
 
 An automated kernel patching tool for **vivo / iQOO devices running Linux 4.x kernels**.  
-This tool is designed to simplify the process of patching vendor-restricted kernels so that **Magisk and root solutions can function properly**.
+This tool is designed to simplify the process of patching restricted kernels so that **Magisk and root solutions can function properly**.
 
 ---
 
