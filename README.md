@@ -106,4 +106,31 @@ _~fxxk you vivo, fxxk you bbk, look at what you've done~_
 - [Magisk](https://github.com/topjohnwu/Magisk) — boot image unpacking and repacking
 - [LoveRedscholar](https://github.com/LoveRedscholar)  
   & [Nevoraa](https://github.com/Nevoraa) — multi-device testing
-- ~[vivo Open Source](https://opensource.vivo.com/Project) — useless shit~
+- ~[vivo Open Source](https://opensource.vivo.com/Project) — useless shit~   
+
+
+## Disclaimer
+
+This project does **NOT** provide or distribute any proprietary exploits, confidential information, or undisclosed vulnerabilities.
+
+All patching methods used by this tool are:
+- **Publicly known**
+- **Independently researched**
+- **Previously published** in open communities
+
+This project merely **automates an existing manual process** using publicly available tools and techniques.
+
+The author:
+- Does **not** claim ownership of the underlying methods
+- Does **not** bypass any server-side or account-based protections
+- Does **not** provide any commercial service
+
+This tool is provided **for research and educational purposes only**.
+
+Users are solely responsible for:
+- How they use this tool
+- Any damage to their devices
+- Any legal consequences resulting from misuse
+
+If this project violates any policy or local regulation, please open an issue for discussion.
+
