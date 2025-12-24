@@ -35,26 +35,8 @@ You have been warned.
 
 ---
 
-## ⚠️ Windows 7 Compatibility Notice
-
-On **Windows 7**, `main.exe` / `patch.exe` **may fail to run**, even if **.NET Framework 4.8** is installed.
-
-### Known errors include:
-- `System.IO.FileNotFoundException: System.Management.Automation`
-- `System.MissingMethodException: Boolean System.Console.get_IsInputRedirected()`
-
-### Cause
-
-This tool is packaged using **ps2exe**.  
-Some APIs required by the compiled executable are **not fully supported by the Windows 7 CLR**, even with the latest .NET runtime.
-
-### Recommended workaround (Windows 7 only)
-
-1. Install **PowerShell 5.1 (WMF 5.1)**
-2. Install **.NET Framework 4.8**
-3. **Run `patch.ps1` directly** instead of using `patch.exe`
-
-Windows **10 / 11** users are **not affected**.
+## System requirements   
+ - Windows 10 / 11   
 
 ---
 
