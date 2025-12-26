@@ -37,7 +37,7 @@ You have been warned.
 
 ## System requirements   
  - Windows 10 / 11   
-
+ - Android 9+
 ---
 
 ## Kernel Version Compatibility
