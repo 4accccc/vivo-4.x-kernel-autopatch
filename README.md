@@ -36,8 +36,10 @@ You have been warned.
 ---
 
 ## System requirements   
- (for stable)  
- - Windows 10 / 11   
+ (For stable)  
+ - Windows 10 / 11
+
+   
  (CSharp ver)  
  - Windows 7+ & .net 4.0.30319
 
