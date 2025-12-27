@@ -36,7 +36,8 @@ You have been warned.
 ---
 
 ## System requirements   
- - Windows 10 / 11   
+ (for stable) - Windows 10 / 11   
+ (CSharp ver) - Windows 7+ & .net 4.0.30319   
  - Android 9+
 ---
 
