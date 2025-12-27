@@ -37,15 +37,15 @@ You have been warned.
 
 ## System requirements   
  (For stable)  
- - Windows 10 / 11  
+ - Windows 10 (x64) / 11  
  - Android 9+  
   
 ### C# Version Notice  
   
 A C# test version of this tool has been released.  
   
- - Compatible with Windows 7+
- - _~In theory Windows XP but magiskboot just wont run on XP so, bruh~_
+ - Compatible with Windows 7+ (x64)   
+ - _~In theory Windows XP x64 but magiskboot refused to run on XP so, bruh~_
  - Need .net 4.0.30319  
  - Chinese UI only at the moment  
  - Feature-complete but still marked as experimental  
