@@ -37,14 +37,18 @@ You have been warned.
 
 ## System requirements   
  (For stable)  
- - Windows 10 / 11
-
+ - Windows 10 / 11  
+ - Android 9+  
+  
+### C# Version Notice  
+  
+A C# test version of this tool has been released.  
+  
+ - Compatible with Windows 7+  
+ - Need .net 4.0.30319  
+ - Chinese UI only at the moment  
+ - Feature-complete but still marked as experimental  
    
- (CSharp ver)  
- - Windows 7+ & .net 4.0.30319
-
-     
- - Android 9+
 ---
 
 ## Kernel Version Compatibility
