@@ -39,17 +39,12 @@ You have been warned.
  (For stable)  
  - Windows 10 (x64) / 11  
  - Android 9+  
+
   
-### C# Version Notice  
-  
-A C# test version of this tool has been released.  
-  
- - Compatible with Windows Vista SP1+ (x64)   
- - _~In theory Windows XP x64 but magiskboot refused to run on XP so, bruh~_
- - Need .net 4.0.30319  
- - Chinese UI only at the moment  
- - Feature-complete but still marked as experimental  
-   
+ (For CSharp)
+ - Windows Vista SP1+ (x64)   
+ - .net 4.0.30319  
+ - Android 9+   
 ---
 
 ## Kernel Version Compatibility
