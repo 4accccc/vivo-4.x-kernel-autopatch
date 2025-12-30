@@ -105,6 +105,11 @@ _~fxxk you vivo, fxxk you bbk, look at what you've done~_
 
 ---
 
+## About Source Code
+
+This project is not distributed as an open-source repository. However, in the spirit of community development, you are welcome to use decompilation tools (e.g., **dnSpy** or **ILSpy** or **.NET Reflector**) to examine the logic. You are free to modify and redistribute the code obtained through such means.
+
+---
 ## Credits
 
 - [romanovj](https://github.com/romanovj) — kernel restriction solutions (su, mount fix)
