@@ -35,12 +35,12 @@ You have been warned.
 ---
 
 ## System requirements   
- (For stable)  
+ (For legacy)  
  - Windows 10 (x64) / 11  
  - Android 9+  
 
   
- (For CSharp)
+ (For CSharp release/debug)
  - Windows XP x86 (with [OCA](https://github.com/shorthorn-project/One-Core-API-Binaries)) +   
  - .net 4.0.30319  
  - Android 9+   
