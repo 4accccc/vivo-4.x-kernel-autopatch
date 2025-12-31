@@ -86,7 +86,7 @@ https://github.com/4accccc/vivo-4.x-kernel-autopatch/discussions/1
 
 ## Project Status
 
-This tool is **feature-complete** and **no longer under active development**.
+This tool is **feature-complete** and **no longer under active development (except debug)**.
 
 ⚠️ Important:
 - This tool **ONLY patches the kernel**
