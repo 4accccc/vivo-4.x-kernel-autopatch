@@ -41,7 +41,7 @@ You have been warned.
 
   
  (For CSharp release/debug)
- - Windows XP x86 (with [OCA](https://github.com/shorthorn-project/One-Core-API-Binaries)) +   
+ - Windows XP x86/x64 (with [OCA](https://github.com/shorthorn-project/One-Core-API-Binaries)) +   
  - .net 4.0.30319  
  - Android 9+   
 ---
