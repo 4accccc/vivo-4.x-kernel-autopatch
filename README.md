@@ -10,7 +10,7 @@ This tool is designed to simplify the process of patching restricted kernels so 
 
 ## Release Status
 
-<img src="https://raw.githubusercontent.com/4accccc/vivo-4x-kernel-patch/refs/heads/main/autopatch-eng.png" width="25%" alt="English UI"> <img src="https://github.com/user-attachments/assets/80aefdff-197e-49f7-8dc5-9943963a9d8b" width="25%" alt="Chinese UI">
+<img src="https://github.com/user-attachments/assets/4c1c2036-8fb4-4b97-9278-c6ccd0bbc113" width="25%" alt="English UI"> <img src="https://github.com/user-attachments/assets/80aefdff-197e-49f7-8dc5-9943963a9d8b" width="25%" alt="Chinese UI">
 <img src="https://raw.githubusercontent.com/4accccc/vivo-4x-kernel-patch/refs/heads/main/after_patch.png" width="50%" alt="After patch result">
 
 👉 **Downloads:**  
