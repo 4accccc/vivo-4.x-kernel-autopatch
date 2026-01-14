@@ -1,6 +1,6 @@
 well, I have to admit that AI is much better at writing readme.md than me LOL   
 
-
+---
 # vivo-4.x-kernel-autopatch
 
 An automated kernel patching tool for **vivo / iQOO devices running Linux 4.x kernels**.  
@@ -98,15 +98,33 @@ This tool is **feature-complete** and **no longer under active development (exce
 
 If the patch does not work for your device, consider using **Magisk SUU** instead.
 
----
+
 
 _~fxxk you vivo, fxxk you bbk, look at what you've done~_
 
 ---
 
-## About Source Code
+## How to compile?
 
-This project is not distributed as an open-source repository. However, in the spirit of community development, you are welcome to use decompilation tools (e.g., **dnSpy** or **ILSpy** or **.NET Reflector**) to examine the logic. You are free to modify and redistribute the code obtained through such means.
+### CSharp
+For release:   
+~~~
+csc /optimize+ /out:main.exe main.cs   
+csc /optimize+ /out:patch.exe patch.cs   
+~~~   
+
+For Debug:   
+~~~
+csc /define:DEBUG /optimize- /debug /out:main.exe main.cs   
+csc /define:DEBUG /optimize- /debug /out:patch.exe patch.cs   
+~~~
+
+### Legacy (PowerShell)
+(Use ps2exe)
+~~~
+ps2exe -inputfile main.ps1 -outputfile main.exe
+ps2exe -inputfile patch.ps1 -outputfile patch.exe
+~~~
 
 ---
 ## Credits
