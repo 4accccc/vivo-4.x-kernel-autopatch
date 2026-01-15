@@ -126,6 +126,32 @@ ps2exe -inputfile main.ps1 -outputfile main.exe
 ps2exe -inputfile patch.ps1 -outputfile patch.exe
 ~~~
 
+### IMPORTANT SAFETY NOTICE
+
+During execution, this tool will:
+ - Unpack boot.img
+ - Generate temporary kernel files
+ - Create multiple temporary files
+ - Automatically clean up the current directory after completion
+
+Therefore:
+
+### STRONGLY RECOMMENDED
+Please run this tool ONLY inside an independent temporary folder!
+
+For example:   
+  D:\temp\   
+  C:\Users\xxx\Desktop\temp\   
+  ......
+
+Do NOT:
+ - Run it directly from the desktop
+ - Run it inside a directory containing important files
+ - Run it from the system drive root directory
+ - Run it directly inside the downloads folder
+
+Otherwise, important files in the current directory may be accidentally deleted!
+
 ---
 ## Credits
 
