@@ -1,3 +1,10 @@
+### APATCH WORKING ON 4.14.141+ !!!!!
+<img src="https://github.com/user-attachments/assets/4320b1db-258d-468a-9246-7203604cafc8" width="20%" alt="APatch with LSPosed">
+<img src="https://github.com/user-attachments/assets/a8e96218-0c4a-4824-b148-d261b15fbb57" width="20%" alt="Fully Read/Write Boot partition when in Android">
+
+
+
+---
 well, I have to admit that AI is much better at writing readme.md than me LOL   
 
 ---
