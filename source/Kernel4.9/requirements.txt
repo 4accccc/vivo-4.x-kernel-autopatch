@@ -1,0 +1,11 @@
+# Reproducible analysis dependencies validated with CPython 3.14.5.
+capstone==5.0.9
+pyelftools==0.33
+networkx==3.6.1
+vmlinux-to-elf==1.3.6
+unicorn==2.1.4
+# Runtime transitive dependencies of vmlinux-to-elf.
+lz4==4.4.5
+minilzo==1.2
+peewee==4.5.1
+zstandard==0.25.0

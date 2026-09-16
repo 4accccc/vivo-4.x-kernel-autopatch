@@ -44,20 +44,25 @@ You have been warned.
 ## System requirements   
  (For legacy)  
  - Windows 10 (x64) / 11  
- - Android 9+  
+ - Android 9+
 
   
  (For CSharp release/debug)
  - Windows XP x86/x64 (with [OCA](https://github.com/shorthorn-project/One-Core-API-Binaries)) +   
  - .net 4.0.30319  
- - Android 9+   
+ - Android 9+
+
+ (For Kernel4.9 (Python))
+ - Python 3.11+
+ - Uncompressed AArch64 Linux 4.9 kernel
+ - Android 8+
 ---
 
 ## Kernel Version Compatibility
 
 | Kernel Version | 4.9.77+ | 4.14.94+ | 4.14.98 | 4.14.141+ | 4.14.186 | 4.14.190 | 4.19.127 | 4.19.191 | 4.19.191+ |
 | :--------------: | :------: | :------: | :-----: | :-------: | :------: | :------: | :-------: | :-------: | :-------: |
-| **Status** |    ❓³    |    ❓    |   ❓   |   ✔️   |   ✔️¹²   |   ❓¹   |   ✔️¹²   |   ✔️   |   ✔️¹²   |
+| **Status** |    ✔️³    |    ❓    |   ❓   |   ✔️   |   ✔️¹²   |   ❓¹   |   ✔️¹²   |   ✔️   |   ✔️¹²   |
 
 - ✔️ Tested and working
 - ❓ Needs more user feedback
@@ -66,7 +71,7 @@ You have been warned.
 **Notes:**
 1. Mount fix caused a bootloop  
 2. `vivo do_mount_check` patch required  
-3. Works normally on Android 9 and above  
+3. CSharp and Legacy cannot be used for Linux 4.9. Use `source/Kernel4.9/autopatch.py`.
 
 👉 Feedback welcome:  
 https://github.com/4accccc/vivo-4.x-kernel-autopatch/discussions/1
@@ -132,6 +137,35 @@ csc /define:DEBUG /optimize- /debug /out:patch.exe patch.cs
 ps2exe -inputfile main.ps1 -outputfile main.exe
 ps2exe -inputfile patch.ps1 -outputfile patch.exe
 ~~~
+
+### Kernel4.9 (Python)
+
+Use this Python tool for Linux 4.9, **not CSharp or Legacy**.
+Requires Python 3.11+ and an unpatched, uncompressed AArch64 kernel (not `boot.img`).
+
+```sh
+python3 -m venv .venv
+.venv/bin/python -m pip install -r source/Kernel4.9/requirements.txt
+# Apply all patches (recommended)
+.venv/bin/python source/Kernel4.9/autopatch.py kernel.raw kernel-patched.raw
+# Or select some patches manually
+.venv/bin/python source/Kernel4.9/autopatch.py kernel.raw kernel-patched.raw --patches 12346
+# Or select automatically for 64-bit Magisk 24
+.venv/bin/python source/Kernel4.9/autopatch.py kernel.raw kernel-patched.raw --magisk-version 24 --bits 64
+```
+
+Which patches do I need?
+
+**Recommended: apply all P1-P6 patches to keep things simple.**
+
+OR：
+
+| Version | Bitness | P1-P4 | P5 | P6 |
+|---|---|---|---|---|
+| Magisk <= 24 | 32 | Required | Not needed | Not needed |
+| Magisk >= 25 | 32 | Required | Required | Not needed |
+| Magisk == 24 | 64 | Required | Not needed | Required |
+| Magisk >= 25 | 64 | Required | Required | Required |
 
 ### IMPORTANT SAFETY NOTICE
 
