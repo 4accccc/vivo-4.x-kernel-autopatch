@@ -46,7 +46,6 @@ You have been warned.
  - Windows 10 (x64) / 11  
  - Android 9+
 
-  
  (For CSharp release/debug)
  - Windows XP x86/x64 (with [OCA](https://github.com/shorthorn-project/One-Core-API-Binaries)) +   
  - .net 4.0.30319  
@@ -138,7 +137,7 @@ ps2exe -inputfile main.ps1 -outputfile main.exe
 ps2exe -inputfile patch.ps1 -outputfile patch.exe
 ~~~
 
-### Kernel4.9 (Python)
+### Kernel 4.9
 
 Use this Python tool for Linux 4.9, **not CSharp or Legacy**.
 Requires Python 3.11+ and an unpatched, uncompressed AArch64 kernel (not `boot.img`).
@@ -202,6 +201,7 @@ Otherwise, important files in the current directory may be accidentally deleted!
 - [Magisk](https://github.com/topjohnwu/Magisk) — boot image unpacking and repacking
 - [LoveRedscholar](https://github.com/LoveRedscholar)  
   & [Nevoraa](https://github.com/Nevoraa) — multi-device testing
+  & [LeadroyaL](https://github.com/LeadroyaL) — 4.9 kernel patcher contributor
 - ~[vivo Open Source](https://opensource.vivo.com/Project) — useless shit~   
 
 
